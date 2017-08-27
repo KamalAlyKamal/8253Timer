@@ -1,0 +1,28 @@
+module ControlWordRegister(	inout [7:0]Data, input WriteSignal,
+				input  [5:0] ControlWord0i, input  [5:0] ControlWord1i, input  [5:0] ControlWord2i,
+				output [5:0] ControlWord0o, output [5:0] ControlWord1o, output [5:0] ControlWord2o,
+				input  [2:0] EnableCounterLatchi, output [2:0] EnableCounterLatcho, 
+				input  [2:0] EnableStatusLatchi, output [2:0] EnableStatusLatcho
+);
+
+//Setting Current Control Word
+reg [7:0] ControlWord;
+always @(posedge WriteSignal) begin
+	ControlWord = Data;
+end
+
+//Sending the new control word to each counter
+assign ControlWord0o = (ControlWord[7:6] == 2'b00) ? ControlWord[5:0] : ControlWord0i;
+assign ControlWord1o = (ControlWord[7:6] == 2'b01) ? ControlWord[5:0] : ControlWord1i;
+assign ControlWord2o = (ControlWord[7:6] == 2'b10) ? ControlWord[5:0] : ControlWord2i;
+
+//Setting Status Latch 
+assign EnableStatusLatcho = (ControlWord[7:6] == 2'b11 && ControlWord[4]==1'b0 && WriteSignal=='b1) ? ControlWord[3:1] : EnableStatusLatchi;
+
+//Setting Counter Latch
+assign EnableCounterLatcho = (ControlWord[7:6] == 2'b11 && ControlWord[5]==1'b0 && WriteSignal=='b1) ? ControlWord[3:1] : EnableCounterLatchi;
+
+
+
+endmodule
+

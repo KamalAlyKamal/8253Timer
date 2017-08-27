@@ -1,0 +1,45 @@
+{D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/Counter.v} {1 {vlog -work work -stats=none {D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/Counter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Counter
+
+Top level modules:
+	Counter
+
+} {} {}} {D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/ControlWordRegister.v} {1 {vlog -work work -stats=none {D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/ControlWordRegister.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ControlWordRegister
+
+Top level modules:
+	ControlWordRegister
+
+} {} {}} {D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/Chip.v} {1 {vlog -work work -stats=none {D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/Chip.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Chip8254
+
+Top level modules:
+	Chip8254
+
+} {} {}} {D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/ReadWriteLogic.v} {1 {vlog -work work -stats=none {D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/ReadWriteLogic.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ReadWrite
+
+Top level modules:
+	ReadWrite
+
+} {} {}} {D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/tb2.v} {1 {vlog -work work -stats=none {D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/tb2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Chip8254
+-- Compiling module TestBench_tb2
+
+Top level modules:
+	TestBench_tb2
+
+} {} {}} {D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/ctb.v} {1 {vlog -work work -stats=none {D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/ctb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Counter
+-- Compiling module Counter_tb2
+
+Top level modules:
+	Counter_tb2
+
+} {} {}}

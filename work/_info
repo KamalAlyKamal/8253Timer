@@ -1,0 +1,314 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/google/Intel-8254-master/Project8254
+vchip
+!s110 1494987459
+!i10b 1
+!s100 SYX;C7M?2CUz@Dd?6@Co01
+IMLMSMQS904F?Q4a;nQDN22
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2
+w1494987454
+8D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/Chip.v
+FD:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/Chip.v
+L0 4
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1494987459.000000
+!s107 ControlWordRegister.v|ReadWriteLogic.v|counter.v|D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/Chip.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/Chip.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vChip8254
+Z5 !s110 1495043938
+!i10b 1
+!s100 WZ:mH5T`K[if1SfYaB3HR3
+Ic_mjCT9c:EL`NW;mNOb[X2
+R0
+R1
+w1495027565
+8Chip.v
+FChip.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z6 !s108 1495043938.000000
+Z7 !s107 Chip.v|D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/tb2.v|
+Z8 !s90 -reportprogress|300|-work|work|-stats=none|D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/tb2.v|
+!i113 1
+R3
+R4
+n@chip8254
+vControlRegister
+Z9 !s110 1495002417
+!i10b 1
+!s100 612hFn^n:__5Y^^imJmHg2
+I7WNez17SjDR<CYEBj?5lJ0
+R0
+R1
+Z10 w1463965278
+8D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/ControlRegister.v
+FD:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/ControlRegister.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z11 !s108 1495002417.000000
+!s107 D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/ControlRegister.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/ControlRegister.v|
+!i113 1
+R3
+R4
+n@control@register
+vControlWordRegister
+Z12 !s110 1495043937
+!i10b 1
+!s100 BTJBK8Dj7IjJZ8<An]K7:2
+IWmKjE9]`XDTDYR0=A2Dm=0
+R0
+R1
+w1495002631
+Z13 8D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/ControlWordRegister.v
+Z14 FD:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/ControlWordRegister.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z15 !s108 1495043937.000000
+Z16 !s107 D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/ControlWordRegister.v|
+Z17 !s90 -reportprogress|300|-work|work|-stats=none|D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/ControlWordRegister.v|
+!i113 1
+R3
+R4
+n@control@word@register
+vCounter
+R5
+!i10b 1
+!s100 o]MfJ]3B:^ID<ll:3gD@o0
+I8ZBJe_>LIFjIco?e5SeS]3
+R0
+R1
+w1495043932
+8Counter.v
+FCounter.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+Z18 !s107 Counter.v|D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/ctb.v|
+Z19 !s90 -reportprogress|300|-work|work|-stats=none|D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/ctb.v|
+!i113 1
+R3
+R4
+n@counter
+vcounter
+R9
+!i10b 1
+!s100 4e]1ZQf_YO`g?eO<N^]]Z2
+IK6LWKf10L5i72j1?kIJ;:3
+R0
+R1
+w1494707511
+8D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/Counter-1.v
+FD:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/Counter-1.v
+L0 1
+R2
+r1
+!s85 0
+31
+R11
+!s107 D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/Counter-1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/Counter-1.v|
+!i113 1
+R3
+R4
+vCounter_tb
+!s110 1494606192
+!i10b 1
+!s100 @oHgziBzM<^2UAk9CKEY40
+I:g17PLo1ORITVeSM<@L2N2
+R0
+R1
+w1494606188
+Z20 8D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/ctb.v
+Z21 FD:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/ctb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1494606192.000000
+R18
+R19
+!i113 1
+R3
+R4
+n@counter_tb
+vcounter_tb
+R9
+!i10b 1
+!s100 DgKj>z<N?^g;[2n;aCAA70
+I5Fb37c;jVdT`N]=]_82i:1
+R0
+R1
+R10
+8D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/Counter_Testbench.v
+FD:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/Counter_Testbench.v
+L0 2
+R2
+r1
+!s85 0
+31
+R11
+!s107 D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/Counter_Testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/Counter_Testbench.v|
+!i113 1
+R3
+R4
+vCounter_tb2
+R5
+!i10b 1
+!s100 L;ZHc9jBMhg0]4e??Y5jM1
+IZkZeG=6dn9BliN4nSGNzm1
+R0
+R1
+w1495033396
+R20
+R21
+L0 4
+R2
+r1
+!s85 0
+31
+R6
+R18
+R19
+!i113 1
+R3
+R4
+n@counter_tb2
+vRead_Write
+R9
+!i10b 1
+!s100 @N0D=ehTn0RA4:2:Uk[1K0
+IffeH1E]^EJ[iLg6^^_K3a1
+R0
+R1
+R10
+8D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/Read_Write_Logic.v
+FD:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/Read_Write_Logic.v
+L0 1
+R2
+r1
+!s85 0
+31
+R11
+!s107 D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/Read_Write_Logic.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/Read_Write_Logic.v|
+!i113 1
+R3
+R4
+n@read_@write
+vReadWrite
+R12
+!i10b 1
+!s100 2U;U?QQenP[LId=3<oPY20
+Im9jHzL54mBMKNQ0BXP`>;0
+R0
+R1
+w1494268267
+8D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/ReadWriteLogic.v
+FD:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/ReadWriteLogic.v
+L0 1
+R2
+r1
+!s85 0
+31
+R15
+!s107 D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/ReadWriteLogic.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/ReadWriteLogic.v|
+!i113 1
+R3
+R4
+n@read@write
+vTest
+!s110 1494242792
+!i10b 1
+!s100 TNK<><RW0nJKCbnW4P_4`0
+ISK<McLgD:INBzf]jQ?fG10
+R0
+R1
+w1494241712
+R13
+R14
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1494242792.000000
+R16
+R17
+!i113 1
+R3
+R4
+n@test
+vTestBench_tb2
+R5
+!i10b 1
+!s100 I4_`dhP7bKhiV3Y;k>PB?0
+IL2L7k_nE3kf?D9T?DVM923
+R0
+R1
+w1495043898
+8D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/tb2.v
+FD:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/tb2.v
+L0 4
+R2
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R3
+R4
+n@test@bench_tb2
+vx
+R9
+!i10b 1
+!s100 >TWeP_B7T18H^[CG8iODi2
+IP4f7F>H>Pe=g9eJM04Hel2
+R0
+R1
+w1494843622
+8D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/lok.v
+FD:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/lok.v
+L0 2
+R2
+r1
+!s85 0
+31
+R11
+!s107 D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/lok.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Ahmed D/CUFE/2017/Logic 2/anew 2017/Logic Design 2/proj/ProjectLogic2/lok.v|
+!i113 1
+R3
+R4

@@ -1,0 +1,71 @@
+`timescale 1ns/10ps
+`include "Counter.v"
+module CounterTb();
+
+reg out1;
+reg  [15:0] CEoutput1;
+wire [5:0] ControlWord1;
+wire EnableCounterLatch1;
+wire EnableStatusLatch1;
+wire [7:0] Data1;
+wire ReadSignal1;
+wire WriteSignal1;
+wire clkinput1;
+wire gate1;
+
+Counter UUT(.ReadSignal(ReadSignal1),.WriteSignal(WriteSignal1),.clkinput(clkinput1),
+	    .gate(gate1),.out(out1),.ControlWord(ControlWord1),.EnableCounterLatch(EnableCounterLatch1),
+	    .EnableStatusLatch(EnableStatusLatch1),.Data(Data1),.CEoutput(CEoutput1)
+);
+
+localparam period=10;
+
+always
+	#(period/2) clkinput1=~clkinput1;
+
+initial begin
+
+ReadSignal =0;
+WriteSignal = 1;
+gate = 0;
+ControlWord = 'b010010;
+EnableCounterLatch=0;
+EnableStatusLatch=0;
+Data = 'd8;
+
+#(1*period) 
+	WriteSignal = 0;
+
+#(2*period) 
+
+#(1*period) 
+	gate = 1;
+
+#(1*period) 
+	gate = 0;
+//#(7*period) gate=1'b0;
+//#(5*period) gate=1'b1;
+//#(0.5*period) gate=1'b0;
+
+//gate=1'b0;
+//#(1*period) cr=16'd4; ws=1'b1;
+//#(2*period) gate=1'b1;
+//#(0.5*period) gate=1'b0; ws=1'b0;
+//#(2*period)  cr=16'd3; ws=1'b1;
+//#(6*period) gate=1'b1;
+//#(0.5*period) gate=1'b0;
+
+//gate=1'b0;
+//#(1*period) cr=16'd3; ws=1'b1;
+//#(2*period) gate=1'b1;
+//#(0.5*period) gate=1'b0;
+//#(1*period) gate=1'b1;
+//#(0.5*period) gate=1'b0;
+
+#(20*period)
+$finish;
+end
+
+
+
+endmodule
